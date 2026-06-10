@@ -1,0 +1,28 @@
+{
+  "name": "firestore-data-extractor",
+  "version": "1.0.0",
+  "description": "Production-quality CLI tool to export all Firebase Firestore data with full recursive subcollection traversal",
+  "main": "export.js",
+  "type": "module",
+  "scripts": {
+    "export": "node export.js",
+    "export:split": "node export.js --split-collections",
+    "export:single": "node export.js --single-file"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "export",
+    "backup",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^13.0.0",
+    "yargs": "^17.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

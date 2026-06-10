@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Firebase service account key — NEVER commit this
+serviceAccountKey.json
+*.key.json
+
+# Export output
+exports/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
