@@ -162,9 +162,7 @@ firestore-data-extractor/
 
 ## Security
 
-- ⚠️ **Never commit `serviceAccountKey.json` to version control**
-- The `.gitignore` file excludes it by default
-- The service account only needs **read** permissions (Cloud Datastore Viewer role is sufficient)
+- ⚠️ The service account only needs **read** permissions (Cloud Datastore Viewer role is sufficient)
 
 ---
 
